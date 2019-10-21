@@ -1,0 +1,6 @@
+Mongoose App Deployment Process Notes
+=====================================
+
+
+RESOURCES
+=========
