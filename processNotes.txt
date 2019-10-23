@@ -4,3 +4,8 @@ Mongoose App Deployment Process Notes
 
 RESOURCES
 =========
+https://medium.com/make-school/how-to-deploy-your-node-js-mongodb-app-to-the-web-using-heroku-63d4bccf2675  -- deployment with Heroku guide
+https://scotch.io/tutorials/use-mongodb-with-a-node-application-on-heroku  -- deployment with heroku
+https://dev.to/effingkay/deploy-your-app-to-heroku-60g -- deploy to heroku
+https://medium.com/@brenda.clark/heroku-alternatives-top-5-picks-9095cef91d91  -- alternatives
+https://trifinlabs.com/what-is-heroku/ -- heorku
