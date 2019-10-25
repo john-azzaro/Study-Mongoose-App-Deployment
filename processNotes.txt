@@ -9,3 +9,4 @@ https://scotch.io/tutorials/use-mongodb-with-a-node-application-on-heroku  -- de
 https://dev.to/effingkay/deploy-your-app-to-heroku-60g -- deploy to heroku
 https://medium.com/@brenda.clark/heroku-alternatives-top-5-picks-9095cef91d91  -- alternatives
 https://trifinlabs.com/what-is-heroku/ -- heorku
+https://medium.com/@katestamas/heroku-deployment-with-react-node-mongoose-and-webpack-ff37bd80d7af  -- deployment
