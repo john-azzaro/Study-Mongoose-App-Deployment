@@ -27,7 +27,10 @@ Heroku runs apps in *dynos*, which are essentially virtual computers that can sc
 
 ### STEP 1: Provision a new database in Atlas.
 ------
-To provision a new database in Atlas:
+Assuming you already have an Atlas account and you are logged in (), provision a new database. If you do not have an account, check out my [MongoDB Atlas Cloud Deployment](https://github.com/john-azzaro/Study-MongoDB-Atlas-Cloud-Deployment "Atlas configuration study") study that goes step-by-step through the process.
+
+So to provision a new database in Atlas:
+
 1. Click **Collections**.
 2. Click **Create Database**.
 3. Name your database (e.g. *my-app*).
@@ -42,6 +45,10 @@ To create your Heroku app, you simply need to run "heroku create" at the command
 Then, push your app to Heroku:
 ```
     git push heroku master
+```
+And lastly, start up the dyno on your Atlas server:
+```
+    heroku ps:scale web=1
 ```
 
 
