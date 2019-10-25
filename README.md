@@ -26,12 +26,27 @@ Heroku runs apps in *dynos*, which are essentially virtual computers that can sc
 <dd>
 
 ### STEP 1: Provision a new database in Atlas.
+------
 To provision a new database in Atlas:
 1. Click **Collections**.
 2. Click **Create Database**.
 3. Name your database (e.g. *my-app*).
 4. Add you database.
 
+### STEP 2: Create your Heroku app.
+------
+To create your Heroku app, you simply need to run "heroku create" at the command line in your project folder:
+```
+    heroku create
+```
+Then, push your app to Heroku:
+```
+    git push heroku master
+```
+
+
+
+### STEP 3: 
 
 
 
