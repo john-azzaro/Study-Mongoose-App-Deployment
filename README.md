@@ -3,26 +3,24 @@
 <br>
 
 ## What is Mongoose App Deployment Study
-The Mongoose App deployment study is an examination and simplified workflow process for deploying Mongo-backed Express applications. In this study, we use the PaaS (Platform as a Service) Heroku to deploy our app to the web.
+The Mongoose App deployment study is an examination and simplified workflow process for deploying Mongoose Express applications to Heroku (a PaaS, or Platform as a Service, that helps deploy and scale and app), using Atlas for creating database clusters for your application.
 
 Here's some of the questions covered in the study:
 
-* [What is Heroku?](#What-is-Heroku)
+* [How do Mongoose, Atlas, and Heroku fit together in app deployment?](#How-do-Mongoose-Atlas-and-Heroku-fit-together-in-app-deployment)
 * [How do you deploy a Mongoose app to Heroku?](#How-do-you-deploy-a-Mongoose-app-to-Heroku)
 
 <br>
 
-## How do Mongoose, MongoDB, Atlas, and Heroku fit together to deploy an app?
+## How do Mongoose, Atlas, and Heroku fit together in app deployment?
 
-When you deploy a mongoose app to Heroku, you are essentially merging MongoDB cloud service (which uses mongoose in app and by extension Atlas as a means to access that data) with Heroku. 
+When you deploy a mongoose app to Heroku, you are essentially merging MongoDB cloud services (which uses mongoose in app and by extension Atlas as a means to access that data) with Heroku (a PaaS) that helps deploy and manage that application. 
 
-As a brief refresher, our express application uses Mongoose. Mongoose is an Object Data Mapper (ODM) library (or Object Modeling Modeler) for MongoDB and Node.js, is used to simplify the writing of validation code, business logic boiler plate, and make the code shorter and easier to work with. 
+**As a brief refresher, our express application uses Mongoose.** Mongoose is an Object Data Mapper (ODM) library (or Object Modeling Modeler) for MongoDB and Node.js, is used to simplify the writing of validation code, business logic boiler plate, and make the code shorter and easier to work with. 
 
-To deploy our app in the most efificent way possible, we use MongoDB Atlas. MongoDB Atlas provides an easy alternative to installing, tuning for optimal performance and security a database on the cloud for your own project. With Atlas you can create a MongoDB cluster on any major cloud provider (AWS, Google Cloud, Azure, etc.) and use that cluster within minutes with a browser-based interface. Additionally, you can allocate cloud resources and have the database automatically set itself up with predefined rules and further monitor its performance.
+**To deploy our app in the most efificent way possible, we use MongoDB Atlas.** MongoDB Atlas provides an easy alternative to installing, tuning for optimal performance and security a database on the cloud for your own project. With Atlas you can create a MongoDB cluster on any major cloud provider (AWS, Google Cloud, Azure, etc.) and use that cluster within minutes with a browser-based interface. Additionally, you can allocate cloud resources and have the database automatically set itself up with predefined rules and further monitor its performance.
 
-To make deployment easy ans efficient, we use Heroku to deploy our app. Heroku is a container-based cloud platform as a servive (PaaS) that developers use to deploy, manage, and scale modern applications. In other words, it is a deployment tool meant to make life easier for developers. Heroku runs apps in *dynos*, which are essentially virtual computers that can scale the power required to run those apps. This means that as your demand for your app grows, you can scale horizontally or vertically (for a price of course). Important to note that Heroku does not host your app as it is deployed to Amazon Web Services (AWS). 
-
-
+**To make deployment easy and efficient, we use Heroku to deploy our app.** Heroku is a container-based cloud platform as a servive (PaaS) that developers use to deploy, manage, and scale modern applications. In other words, it is a deployment tool meant to make life easier for developers. Heroku runs apps in *dynos*, which are essentially virtual computers that can scale the power required to run those apps. This means that as your demand for your app grows, you can scale horizontally or vertically (for a price of course). Important to note that Heroku does not host your app as it is deployed to Amazon Web Services (AWS). 
 
 <br>
 
