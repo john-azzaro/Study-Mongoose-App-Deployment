@@ -42,15 +42,26 @@ So to provision a new database in Atlas:
 
 <br>
 
-### STEP 2: Create your Heroku app.
+### STEP 2: Create and name your Heroku app.
 ------
-In the Heroku dashboard, click "New" and then "Create New App".
+In the Heroku dashboard, click "New", then click "Create New App", then give your app a name.
 
 <br>
 
-### STEP 3: Give your new app a name.
+### STEP 3: Click the "Github" connection.
 ------
+This connection wil sync up with the corresponding Github repository your project currently resides in. W
 
+<br>
+
+### STEP 4: Find and connect to the correct Github repository.
+------
+When you click the connection button, the app should automatically update for you.
+
+<br>
+
+### STEP 5: 
+------
 
 
 
