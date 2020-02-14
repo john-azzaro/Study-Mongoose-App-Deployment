@@ -70,11 +70,17 @@ Go to settings > config vars > reveal config vars and put the key. this is in th
 ------
 In mongodb Atlas, Either build a new cluster (and save the password) OR the password (i.e. mypassword123, abc123, etc... whatever you specify).
 
+<br>
 
+### STEP 7: Connect application in Atlas and get the connection string.
+------
+In mongodb atlas, select the "connect your application". When this is done, you will get a connection string. Copy this string into a document and replace the password with your own.
 
+<br>
 
-
-
+### STEP 8: Amend the config vars string with the connection string.
+------
+Paste in the connection string into the value of your config vars in mongodb and click "Add".
 
 
 
