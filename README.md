@@ -60,9 +60,15 @@ When you click the connection button, the app should automatically update for yo
 
 <br>
 
-### STEP 5: 
+### STEP 5: Input your key into vars configuration.
 ------
+Go to settings > config vars > reveal config vars and put the key. this is in the env file and is DATABASE_URL. The value for the key is going to come from Mongodb atlas.
 
+<br>
+
+### STEP 6: Build a new cluster in Atlas.
+------
+In mongodb Atlas, Either build a new cluster (and save the password) OR the password (i.e. mypassword123, abc123, etc... whatever you specify).
 
 
 
