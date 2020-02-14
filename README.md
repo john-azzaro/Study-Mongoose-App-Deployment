@@ -29,8 +29,26 @@ When you deploy a mongoose app to Heroku, you are essentially merging MongoDB cl
 <dl>
 <dd>
 
-### STEP 1: Provision a new database in Atlas.
+### STEP 1: Create a new app.
 ------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Assuming you already have an Atlas account and you are logged in (), provision a new database. If you do not have an account, check out my [MongoDB Atlas Cloud Deployment](https://github.com/john-azzaro/Study-MongoDB-Atlas-Cloud-Deployment "Atlas configuration study") study that goes step-by-step through the process.
 
 So to provision a new database in Atlas:
